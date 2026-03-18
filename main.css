@@ -39,10 +39,19 @@ h1{
 }
 .inc{
     background: yellow;
+    border-radius: 10px;
+    outline: none;
 }
 .res{
     background: red;
+    border-radius: 10px;
+    outline: none;
+
 }
 .dec{
     background: green;
+    border-radius: 10px;
+    outline: none;
+
+
 }
