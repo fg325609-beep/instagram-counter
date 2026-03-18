@@ -22,18 +22,18 @@
 // })
 
 
-let userEmail = document.getElementById("userEmail");
+let Name = document.getElementById("Name")
+let Email = document.getElementById("Email");
 let btn = document.getElementById("btn");
-let userName = document.getElementById("userName")
 const text = document.getElementById("text");
 
 
-const useIsm ="farhod"
-const valiEmail = "user123gmail.com"
+const useIsm ="farhod";
+const valiEmail = "user123gmail.com";
 
 btn.addEventListener("click",function(e){
     e.preventDefault()
-  if (userEmail.value === useIsm && useIsm.value === valiEmail) {
+  if (Name.value === useIsm && useIsm.value === valiEmail) {
     text.textContent = "royxatdan otinggiz"
 
     
