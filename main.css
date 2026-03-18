@@ -1,0 +1,47 @@
+body{
+    margin: 100px auto;
+    padding: 0;
+    box-sizing: border-box;
+    background: rgb(8, 11, 37);
+}
+span{
+    padding: 50px ;
+    background: cadetblue;
+    max-width: 1200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    flex-direction: column;
+    border-radius: 9px;
+    align-items: center;
+    width: 10%;
+
+}
+.div{
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+button{
+    font-size: 40px;
+    border: none;
+}
+.res i{
+    font-size: 40px;
+  color: black;
+}
+
+h1{
+    color: white;
+    font-size: 80px;
+}
+.inc{
+    background: yellow;
+}
+.res{
+    background: red;
+}
+.dec{
+    background: green;
+}
